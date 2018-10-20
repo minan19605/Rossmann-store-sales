@@ -1,11 +1,11 @@
 # Rossmann Store Sales Project Report #
 (from Kaggle Competition)
 
-### 项目描述 ###
-Rossmann是欧洲的一家连锁药店。 在这个源自Kaggle比赛[Rossmann Store Sales](https://www.kaggle.com/c/rossmann-store-sales)中，我们需要根据Rossmann药妆店的信息（比如促销，竞争对手，节假日）以及在过去的销售情况，来预测Rossmann未来的销售额。
+### Project description ###
+Rossmann is a chain stores in Europe. And this project is from Kaggle competition [Rossmann Store Sales](https://www.kaggle.com/c/rossmann-store-sales). I need to predict Rossmann stores' sales according provided data, like the promotion, competition, holiday and etc.
 
 ## Requirements  ##
-项目中我使用Python语言进行数据探索、可视化和特征工程等工作，Python 的版本是windows X64 3.5.5。涉及的主要软件包有：
+In this project, I use Python for data explore, visulization and featuring engineering. Python version is windows X64 3.5.5. And involved packages inlcude:
 - Jupyter Notebook
 - numpy 
 - pandas
@@ -14,13 +14,13 @@ Rossmann是欧洲的一家连锁药店。 在这个源自Kaggle比赛[Rossmann S
 - xgboost
 
 ## Run
-1. 运行本项目应该包含以下子目录: input。Input目录下是从Kaggle网站下载并本地解压的文件train.csv, store.csv, test.csv.
-2. 在Jupyter Notebook 中加载“Rossmann Store project for report.ipynb”并直接执行。全部执行完成需要7个小时左右。
-3. 生成的用于提交Kaggle的结果文件名为“xgboost_rossman_submission.csv”
+1. To run this project, you should include sub directory: input. The Input directory has data downloaded from Kaggle and unzip to local: train.csv, test.csv.
+2. In Jupyter Notebook to load “Rossmann Store project for report Eng.ipynb” and execute it. The executation time needs about 7 hours。
+3. The result is "xgboost_rossman_submission.csv" and can be uploaded to Kaggle.
 
 ## Result
 
-本地测试集的结果：
+The result of local test set:
 RMSPE: 0.109707
 
 Kaggle Private Score
